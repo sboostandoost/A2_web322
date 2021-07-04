@@ -1,0 +1,118 @@
+<!-- 
+  WEB322 Assignment 2
+  Name: Shahriar Boostandoost
+  Student Number: 102745205
+  Email: sboostandoost@myseneca.ca
+  Section NDD
+  Date: 02/7/2021
+  Live demo: https://web322-a2-Shahriar-Boostandoost.herokuapp.com/
+  github repo: https://github.com/sboostandoost/web322a2
+  
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+
+    <meta name="description" content="Registration Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Water CSS theme, see https://watercss.kognise.dev/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css"  />
+
+    
+
+    <!-- site's styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="registration.css">
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">  <img src="vecglobe.png"width="200" height="114" alt="Weblogo"></a>
+     </nav>    
+    <div class="d-flex justify-content-center">
+     
+        <div class="signup-form">
+            <form action="" method="post">
+            <h2>Registration</h2>
+            
+            <legend class="col-form-label col-sm-12 pt-0">Personal Information</legend>  
+            <div class="form-group">
+              <div class="row">
+                <div class="col-sm-6"><input type="text" class="form-control" name="firstName" placeholder="First Name" required="required"></div>
+                <div class="col-sm-6"><input type="text" class="form-control" name="lastName" placeholder="Last Name" required="required"></div>
+                <div class="col-sm-6"><input type="email" class="form-control" name="email" placeholder="Email" required="required"></div>
+                <div class="col-sm-6"><input type="tel" class="form-control" name="phoneNum" placeholder="PhoneNumber" id="phoneNum"></div>
+              </div>
+            </div>
+            
+            <legend class="col-form-label col-sm-12 pt-0"> Address</legend>  
+            <div class="form-group">
+             <div class="row">
+             
+             </div>
+             <div class="row">
+              <div class="col-sm-12"><input type="text" class="form-control" name="confirmPassword" placeholder="Street Address" required></div>
+             </div>   
+             <div class="row">
+              <div class="col-sm-12"><input type="text" class="form-control" name="confirmPassword" placeholder="Street Address 2" required></div>
+             </div>
+             <div class="row">
+              <div class="col-sm-5"><input type="text" class="form-control" name="confirmPassword" placeholder="City" required></div>
+              <div class="col-sm-3">
+                <select class="custom-select d-block w-100" id="province" required="">
+                  <option value="">Province...</option>
+                  <option value="AB">Alberta</option>
+                  <option value="BC">British Columbia</option>
+                  <option value="MB">Manitoba</option>
+                  <option value="NB">New Brunswick</option>
+                  <option value="NL">Newfoundland and Labrador</option>
+                  <option value="NS">Nova Scotia</option>
+                  <option value="ON">Ontario</option>
+                  <option value="PE">Prince Edward Island</option>
+                  <option value="QC">Quebec</option>
+                  <option value="SK">Saskatchewan</option>
+                  <option value="NT">Northwest Territories</option>
+                  <option value="NU">Nunavut</option>
+                  <option value="YT">Yukon</option>
+                </select>
+              </div>
+              <div class="col-sm-4"><input type="text" class="form-control" name="confirmPassword" placeholder="Postal Code" required></div>
+             </div>  
+             <div class="row">
+              <div class="col-sm-12">
+                <select class="custom-select d-block w-100" id="province" required="">
+                <option value="">Country...</option>
+                <option value="CA">Canada</option>
+                </select>
+             </div>
+             </div>   
+             <div class="row">
+             
+             </div>
+            
+            
+            
+            
+            
+      
+               
+               
+                <div class="form-group">
+              <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+            </div>
+            <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-md btn-block">Register Now</button>
+                </div>
+            </form>
+          <div class="text-center">Already have an account? <a href="signin.html">Sign in</a></div>
+        </div>
+        </div>
+        </body>
+    <!-- Your custom form validation code goes here
+    <script src=""></script>-->
+    
+  
+</html>
